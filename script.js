@@ -1,4 +1,3 @@
-// Toggle between two sets of paragraph content
 let isOriginalText = true;
 
 function changeText() {
@@ -16,7 +15,6 @@ function changeText() {
     isOriginalText = !isOriginalText;
 }
 
-// Predefined list of games
 const games = [
     "Mobile Legends",
     "Clash of Clans",
@@ -42,7 +40,7 @@ function addGame() {
     }
 }
 
-// Remove paragraphs first, then list items
+
 function removeElement() {
     const para1 = document.getElementById('para1');
     const para2 = document.getElementById('para2');
@@ -56,5 +54,6 @@ function removeElement() {
         ul.removeChild(ul.lastChild);
     }
 }
+
 
 
